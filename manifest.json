@@ -1,0 +1,37 @@
+{
+    "name": "More Readable Web",
+    "version": "1.0",
+    "manifest_version": 2,
+    "description": "More Readable Web",
+    "icons": {
+        "128": "logo128.png",
+        "48": "logo48.png",
+        "38": "logo38.png",
+        "32": "logo32.png",
+        "19": "logo19.png",
+        "16": "logo16.png"
+    },
+    "permissions": [
+        "http://*/*",
+        "https://*/*",
+        "notifications",
+        "webRequest",
+        "webRequestBlocking"
+    ],
+    "browser_action": {
+        "default_icon": "logo32.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": true
+    },
+    "content_scripts": [{
+        "matches": ["<all_urls>"],
+        "js": [
+            "content.js"
+        ],
+        "all_frames": true
+    }]
+}
