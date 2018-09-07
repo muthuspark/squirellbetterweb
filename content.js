@@ -26,7 +26,7 @@ var proc_id = setInterval(function() {
         //document.body.style['background-color'] = 'white';
         //document.body.style['font-size'] = '18px';
         //document.body.style['line-height'] = '1.48';
-        document.body.style['font-weight'] = '300';
+        // document.body.style['font-weight'] = '300';
         if (location.hostname == "mail.google.com") {
             // var tds = document.getElementsByTagName('td');
             // for (var i = 0; i < tds.length; i++) { tds[i].style['font-size'] = '100%'; }
