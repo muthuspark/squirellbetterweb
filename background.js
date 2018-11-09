@@ -1,6 +1,4 @@
 var callback = function(details) {
-  console.log(details);
-
   for (var i = 0; i < details.responseHeaders.length; i++) {
     if ('content-security-policy' === details.responseHeaders[i].name.toLowerCase()) {
       details.responseHeaders[i].value = '';

@@ -1,8 +1,8 @@
 {
-    "name": "More Readable Web",
-    "version": "1.0",
+    "name": "Beautify Web",
+    "version": "1.1",
     "manifest_version": 2,
-    "description": "More Readable Web",
+    "description": "Beautify Web",
     "icons": {
         "128": "logo128.png",
         "48": "logo48.png",
