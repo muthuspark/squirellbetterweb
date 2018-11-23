@@ -12,11 +12,9 @@
         "16": "logo16.png"
     },
     "permissions": [
-        "http://*/*",
-        "https://*/*",
-        "notifications",
-        "webRequest",
-        "webRequestBlocking"
+        "http://fonts.googleapis.com/*",
+        "https://fonts.googleapis.com/*",
+        "webRequest"
     ],
     "browser_action": {
         "default_icon": "logo32.png"
